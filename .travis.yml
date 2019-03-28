@@ -6,7 +6,6 @@ dist: trusty
 before_script:
   - chmod a+x ./build.sh
   - chmod a+x ./.nuget/deploy.sh
-  - chmod a+x ./.npm/deploy.sh
 script:
   - ./build.sh
 deploy:
