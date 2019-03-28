@@ -30,6 +30,6 @@ if [ ! -f "${NUPKG}" ]; then
     echo "package not exist: ${NUPKG}"
     exit 1
 fi
-
+echo "ls"
 # publish
 #dotnet nuget push ${NUPKG} -k ${NUGET_API_KEY} -s https://api.nuget.org/v3/index.json
