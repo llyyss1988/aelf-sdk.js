@@ -1,7 +1,7 @@
 {
-  "name": "aelf-sdk",
+  "name": "llyyss-sdk",
   "version": "1.1.18",
-  "description": "aelf-sdk js library",
+  "description": "llyyss-sdk js library",
   "main": "./lib/aelf.js",
   "directories": {
     "lib": "lib"
