@@ -1,6 +1,6 @@
 {
   "name": "llyyss-sdk",
-  "version": "1.1.18",
+  "version": "0.0.7",
   "description": "llyyss-sdk js library",
   "main": "./lib/aelf.js",
   "directories": {
@@ -40,7 +40,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "aelf-sdk"
+    "llyyss-sdk"
   ],
   "author": "huangzongzhe,hzz780",
   "license": "MIT"
