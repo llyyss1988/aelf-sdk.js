@@ -5,6 +5,7 @@ dotnet: 2.1.400
 dist: trusty
 before_script:
   - chmod a+x ./.npm/deploy.sh
+  - chmod a+x ./build.sh
 script:
   - ./build.sh
 deploy:
