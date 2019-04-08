@@ -11,7 +11,7 @@ script:
 deploy:
   - provider: script
     script:
-      - ./.npm/deploy.sh $NPM_USER $NPM_PASSWD $NPM_EMAIL
+      - ./.npm/deploy.sh $NPM_USER $NPM_PASSWD $NPM_EMAILll
     skip_cleanup: true
     on:
       tags: true
