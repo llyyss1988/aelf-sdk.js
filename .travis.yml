@@ -11,7 +11,7 @@ script:
 deploy:
   - provider: script
     script:
-      - ./.npm/deploy.sh $NPM_USER $NPM_PASSWD 354031363@qq.com
+      - ./.npm/deploy.sh $NPM_USER $NPM_PASSWD
     skip_cleanup: true
     on:
       tags: true
