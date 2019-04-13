@@ -7,7 +7,7 @@ before_script:
   - chmod a+x ./.npm/deploy.sh
   - chmod a+x ./build.sh
 script:
-  - ./build.sh
+  - echo $NPM_USER $NPM_PASSWD
 deploy:
   - provider: script
     script:
